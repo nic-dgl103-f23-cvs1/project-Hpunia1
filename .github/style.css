@@ -2,6 +2,8 @@ html {
   font-size: 62.5%;
 }
 
+/* Mobile Version */
+
 body {
   background-color: rgb(188, 187, 187);
   font-family: "Ubuntu", sans-serif;
@@ -204,13 +206,150 @@ img {
     .last p {
         border-top: 1px solid rgb(188, 188, 188);
     }
+
+    /* About page */
+
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(188, 187, 187);
+  }
+  
+  .toggle {
+    display: block;
+    padding-top: 11px;
+    text-align: right;
+  }
+  header img {
+    height: 60px;
+    width: 130px;
+    margin-top: 0;
+  }
+  
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  .aboutpage h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #A1AEB7;
+  }
+  
+  .aboutcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .aboutcontainer img {
+    border-radius: 10px;
+    margin-top: 0;
+    width: 210px;
+    height: 230px;
+  }
+  
+  .aboutitem {
+    margin-left: 20px;
+  }
+  
+  .table {
+    margin-top: 40px;
+  }
+  
+  .table h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #A1AEB7;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #A1AEB7;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .contactus {
+    margin-top: 40px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .container form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    color: #A1AEB7;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #A1AEB7;
+    border-radius: 5px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #212222a9;
+    color: white;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #212222a9;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .brand a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .brand a:hover {
+    color: #A1AEB7;
+  }
+  
+ 
+    /* Desktop Version */
 @media only screen and (min-width: 1200px) {
-  .project {
+  
+  
+  
+  
+    .project {
     margin-top: 440px;
   }
   .first{
     display: flex;
     justify-content: space-around;
+
+
 }
     
 
@@ -223,3 +362,7 @@ img {
     }
 
 }
+
+
+
+  
