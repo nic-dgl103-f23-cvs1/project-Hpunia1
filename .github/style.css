@@ -178,8 +178,48 @@ img {
         color: #0000006e;
     }
     
+    /* Footer */
+    footer {
+        background-color: black;
+        color: white;
+    }
+    
+    .first {
+        display: flex;
+        align-items: center;
+    gap: 10px;
+    }
+
+    .F2 {
+        color: white;
+    }
+    
+    a {
+        color: white;
+    display: block;
+    margin-top: 10px;
+    }
+    
+
+    .last p {
+        border-top: 1px solid rgb(188, 188, 188);
+    }
 @media only screen and (min-width: 1200px) {
   .project {
     margin-top: 440px;
   }
+  .first{
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+.F1, .F2{
+    display: flex;
+    align-items: center;
+}
+    .last p {
+        border-top: 1px solid black;
+    }
+
 }
